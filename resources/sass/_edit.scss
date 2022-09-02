@@ -1,0 +1,216 @@
+.edit-phone {
+    padding-top: 30px;
+    .phone-area {
+        padding-right: 25px;
+        .input-label {
+            padding-right: 18px;
+        }
+    }
+
+    .phone-area-improtant {
+        display: flex;
+        padding-top: 15px;
+        span {
+            font-size: 14px;
+            color: $pink;
+            font-family: $fbold;
+            text-transform: uppercase;
+        }
+        p {
+            padding-top: 8px;
+            padding-bottom: 20px;
+            font-size: 14px;
+            font-family: $fregular;
+        }
+    }
+
+    .phone-area__wrap {
+        display: flex;
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+        }
+    }
+    .phone-confirm {
+        .label-wrap {
+            width: 186px;
+            img {
+                width: 12px;
+                margin-right: 9px;
+            }
+        }
+    }
+
+}
+
+.edit-wrap-section-place {
+    padding-bottom: 84px;
+    @include media-breakpoint-down(md) {
+        padding-bottom: 60px;
+    }
+    .wrap-icon1 {
+        position: absolute;
+        background-image: url('/img/pin.svg');
+        left: -35px;
+        top: 5px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 350px;
+        width: 256px;
+        @include media-breakpoint-down(lg) {
+            left: -102px;
+        }
+        @include media-breakpoint-down(md) {
+            left: -96px;
+        }
+    }
+    h2 {
+        padding-top: 8px;
+        font-size: 20px;
+        padding-bottom: 32px;
+        font-family: $fbold;
+
+    }
+    .edit-desc {
+        font-size: 14px;
+        padding-bottom: 16px;
+    }
+    .input {
+        // margin-bottom: 36px;
+
+        width: calc(100% - 80px);
+    }
+    .chooser-full-width {
+        margin-bottom: 36px;
+        width: 100%;
+        ::-webkit-input-placeholder {
+            color: rgb(117, 117, 117) !important;
+        }
+    }
+}
+
+.edit-wrap-section-body {
+    padding-bottom: 126px;
+    @include media-breakpoint-down(lg) {
+        padding-bottom: 42px;
+    }
+    .wrap-icon2 {
+        position: absolute;
+        background-image: url('/img/infors.svg');
+        left: -35px;
+        top: -5px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 350px;
+        width: 256px;
+        @include media-breakpoint-down(md) {
+            left: -69px;
+        }
+    }
+    h2 {
+        padding-bottom: 56px;
+    }
+}
+
+.edit-wrap-section-tarif {
+    padding-bottom: 112px;
+    @include media-breakpoint-down(md) {
+        padding-bottom: 60px;
+    }
+    .tarifform {
+        padding-top: 35px;
+        .table-desc {
+            padding-bottom: 14px;
+        }
+    }
+
+    .tarif-input-area {
+        padding-bottom: 15px;
+    }
+
+    .quit {
+        width: 22px;
+        cursor: pointer;
+    }
+
+    .input-with-dis {
+        width: calc(100% - 40px);
+        .input {
+            width: 100%;
+        }
+    }
+
+    .quit-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrap-icon3 {
+        position: absolute;
+        background-image: url('/img/hawaii.svg');
+        left: -10px;
+        top: -5px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 350px;
+        width: 186px;
+        @include media-breakpoint-down(md) {
+            left: -69px;
+        }
+    }
+}
+
+.edit-wrap-section-horario {
+    padding-bottom: 95px;
+    @include media-breakpoint-down(md) {
+        padding-bottom: 58px;
+    }
+    .horario-wrap {
+        padding-top: 35px;
+    }
+    .center-radio {
+        padding-top: 19px;
+        padding-bottom: 19px;
+    }
+    .wrap-icon4 {
+        position: absolute;
+        background-image: url('/img/time.svg');
+        left: -5px;
+        top: -30px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 350px;
+        width: 186px;
+        @include media-breakpoint-down(lg) {
+            left: -65px;
+            top: -31px;
+        }
+        @include media-breakpoint-down(md) {
+            left: -69px;
+        }
+    }
+}
+
+
+.edit-page {
+    .page-title {
+        @include media-breakpoint-down(md) {
+            padding-left: 50px;
+            font-size: 16px !important;
+        }
+    }
+}
+
+.alert.alert-info
+{
+    margin: 15px 0;
+    background-color: #FE6885;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.text-center
+{
+    text-align: center;
+}
